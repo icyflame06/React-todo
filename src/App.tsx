@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 // 1. Import Ant Design components
-import { Button, List, Typography, Space, Checkbox, message } from 'antd';
+import { Button, List, Typography, Space, message } from 'antd';
 import { PlusOutlined, DeleteOutlined } from '@ant-design/icons';
 
 const client = generateClient<Schema>();
